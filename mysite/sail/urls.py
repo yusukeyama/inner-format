@@ -9,4 +9,9 @@ urlpatterns = [
     path('book/add/', views.book_edit, name='book_add'),  # 登録
     path('book/mod/<int:book_id>/', views.book_edit, name='book_mod'),  # 修正
     path('book/del/<int:book_id>/', views.book_del, name='book_del'),   # 削除
+    # 感想
+    path('impression/<int:bokk_id>/', views.ImpressionList.as_view(), name='impression_list'),  # 一覧
+    path('impression/add/<int:bokk_id>/', views.impression_edit, name='impression_add'),  # 登録
+    path('impression/mod/<int:bokk_id>/<int:impression_id>/', views.impression_edit, name='impression_mod'),  # 修正
+    path('impression/del/<int:bokk_id>/<int:impression_id>/', views.impression_del, name='impression_del'),  # 修正
 ]
