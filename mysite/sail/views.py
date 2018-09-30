@@ -27,7 +27,7 @@ def book_edit(request, book_id=None):
         if form.is_valid():
             book = form.save(commit=False)
             book.save()
-            return redirect('sail.book_list')
+            return redirect('sail:book_list')
     else:
         form = BookForm(instance=book)  # book インスタンスからFormを作成
 
@@ -42,15 +42,15 @@ def book_del(request, book_id):
     return redirect('sail:book_list')
 
 
-def ImpressionList(ListView):
+class ImpressionList(ListView):
     """感想の一覧"""
     context_object_name='impressions'
-    templete_namme='sail/impression_list_html'
+    templete_namme='sail/impression_list.html'
     paginate_by = 2
 
     def get(self, request, *args, **kwarags):
         book = get_object_or_404(Book, pk=kwarags['book_id'])  # 親の書籍を読む
-        impressions = book.impressions.all().order_by('id') # 書籍の子供の感想を読む
+        impressions = book.impressions.all().order_by('id')  # 書籍の子供の感想を読む
         self.object_list = impressions
 
         context = self.get_context_data(object_list=self.object_list, book=book)
