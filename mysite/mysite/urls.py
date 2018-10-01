@@ -19,4 +19,5 @@ from django.urls import include, path
 urlpatterns = [
     path('sail/', include('sail.urls')),
     path('admin/', admin.site.urls),
+    path('api/', include('api.urls'))
 ]
