@@ -5,6 +5,12 @@ from sail.models import Book, Impression
 from sail.forms import BookForm, ImpressionForm
 
 
+def index(request):
+    """トップページ"""
+    moji = "moji"
+    return HttpResponse('てすと')
+
+
 def book_list(request):
     """書籍の一覧"""
     # return HttpResponse('書籍の一覧')
