@@ -7,8 +7,8 @@ from sail.forms import BookForm, ImpressionForm
 
 def index(request):
     """トップページ"""
-    moji = "moji"
-    return HttpResponse('てすと')
+    return render(request,
+                  'sail/index.html')
 
 
 def book_list(request):
