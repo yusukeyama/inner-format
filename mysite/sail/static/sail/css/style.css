@@ -1,3 +1,11 @@
+body {
+    text-rendering: auto;
+    font-size: 14px;
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color: #1b1e21;
+    background-color: #ffffff ;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -8,16 +16,28 @@ h1 {
     font-size: 11px;
 }
 
+li {
+    float: left;
+}
+
 .header-inner {
     position: relative;
 }
 
-.header-outer {
+._header-outer {
     position: relative;
     display: block;
     width: 100%;
     min-width: 1260px;
     height: 0;
+}
+
+.header-outer {
+    background-color: #1b1e21;
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 1260px;
 }
 
 .header-innner {
@@ -34,4 +54,46 @@ h1 {
     max-width: 1260px;
     height: 80px;
     margin: 0 auto;
+}
+
+.header-left {
+    display: flex;
+    flex-basis: 380px;
+    align-items: center;
+    margin: 0 5% 0 0;
+    padding: 23px 0 25px;
+}
+
+.header-title {
+    margin: 0 0 0 42px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.header-menu {
+    display: flex;
+    align-content: flex-start;
+}
+
+.header-navi {
+    display: block;
+    margin: 0 33px 0 auto;
+    max-width: 613px;
+    flex-basis: 613px;
+}
+
+.header-navi-list {
+    display: flex;
+    height: 100%;
+}
+
+.body-base {
+    position: relative;
+    width: 100%;
+    padding-top: 80px;
+    min-width: 1260px;
+    background-color: #ffffff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

@@ -11,12 +11,25 @@
 </head>
 <body>
   <header class="header-outer">
-    <div class="header-inner" style="transform: translate3d(0px, 0px, 3px);"></div>
-    <div class="header-content">
-
+    <div class="header-inner">
+      <div class="header-content">
+        <div class="header-left">
+        </div>
+        <div class="header-menu">
+          <nav class="header-navi">
+            <ul class="header-navi-list">
+              <li class="header-navi-item" data-id="index"><a href="#">TOP</a></li>
+              <li class="header-navi-item" data-id="menu2"><a href="#">ABOUT</a></li>
+              <li class="header-navi-item" data-id="menu3"><a href="#">BOOKS</a></li>
+              <li class="header-navi-item" data-id="menu4"><a href="#">CONTACT</a>></li>
+              <li class="header-navi-item" data-id="menu5"><a href="#">LINK</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
   </header>
-  <div class="container">
+  <div class="container body-base">
     {% block content %}
       {{ content }}
     {% endblock %}
