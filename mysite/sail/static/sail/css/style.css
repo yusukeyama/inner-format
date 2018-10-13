@@ -31,6 +31,18 @@ a:hover {
     text-decoration: none;
 }
 
+@media screen and (min-width:768px) {
+  #nav-open {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .header-outer {
+
+    }
+}
+
 .header-inner {
     position: relative;
 }
