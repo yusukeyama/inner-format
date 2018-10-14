@@ -4,6 +4,8 @@
     <list default="true" id="03ebabc7-36e6-423a-987e-542834e00d73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sail/static/sail/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sail/static/sail/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sail/templates/sail/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sail/templates/sail/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sail/templates/sail/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sail/templates/sail/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,25 +38,16 @@
         <entry file="file://$PROJECT_DIR$/sail/templates/sail/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sail/templates/sail/impression_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="388">
+              <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sail/templates/sail/book_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="255">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sail/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="120">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <marker date="1538143663938" expanded="true" signature="84:85" ph="..." />
               </folding>
@@ -90,19 +83,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sail/templates/sail/index.html">
+        <entry file="file://$PROJECT_DIR$/sail/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+                <marker date="1538914504403" expanded="true" signature="259:343" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sail/templates/sail/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sail/static/sail/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="337">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -143,10 +149,10 @@
         <option value="$PROJECT_DIR$/sail/urls.py" />
         <option value="$PROJECT_DIR$/sail/views.py" />
         <option value="$PROJECT_DIR$/sail/templates/sail/book_list.html" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/sail/templates/sail/base.html" />
         <option value="$PROJECT_DIR$/sail/templates/sail/index.html" />
         <option value="$PROJECT_DIR$/sail/static/sail/css/style.css" />
-        <option value="$PROJECT_DIR$/sail/templates/sail/base.html" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -448,17 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sail/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-            <marker date="1538914504403" expanded="true" signature="259:343" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sail/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -506,20 +501,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sail/models.py">
+    <entry file="file://$PROJECT_DIR$/sail/templates/sail/book_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sail/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
-            <marker date="1538143663938" expanded="true" signature="84:85" ph="..." />
+            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1538914504403" expanded="true" signature="259:343" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sail/templates/sail/book_list.html">
+    <entry file="file://$PROJECT_DIR$/sail/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1538143663938" expanded="true" signature="84:85" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -530,31 +536,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sail/templates/sail/index.html">
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="388">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sail/static/sail/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sail/templates/sail/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sail/templates/sail/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+    <entry file="file://$PROJECT_DIR$/sail/static/sail/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="337">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
