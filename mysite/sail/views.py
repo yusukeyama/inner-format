@@ -10,10 +10,18 @@ def index(request):
     return render(request,
                   'sail/index.html')
 
+
 def profile(request):
     """プロフィールページ"""
     return render(request,
                   'sail/profile.html')
+
+
+def languages(request):
+    """言語ページ"""
+    return render(request,
+                  'sail/languages.html')
+
 
 def book_list(request):
     """書籍の一覧"""
