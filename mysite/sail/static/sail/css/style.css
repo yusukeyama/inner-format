@@ -205,3 +205,23 @@ h1 {
     background-color: #17a2b8;
     text-decoration: none;
 }
+
+.box-language {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.box-header {
+    font-weight: 400;
+    padding: 10px 30px;
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center;
+    position: center;
+}
+.box-body {
+    text-align: left;
+    margin: 0 10px;
+    word-break: break-all;
+}
