@@ -8,6 +8,7 @@ urlpatterns = [
     path('', views.index, name='index'),  # トップ
     path('profile/', views.profile, name='profile'),  # プロフィール
     path('languages/', views.languages, name='languages'),  # 言語
+    path('tools/', views.tools, name='tools'),  # ツール
     # 書籍
     path('book/', views.book_list, name='book_list'),   # 一覧
     path('book/add/', views.book_edit, name='book_add'),  # 登録

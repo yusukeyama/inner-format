@@ -23,6 +23,12 @@ def languages(request):
                   'sail/languages.html')
 
 
+def tools(request):
+    """ツールページ"""
+    return render(request,
+                  'sail/tools.html')
+
+
 def book_list(request):
     """書籍の一覧"""
     # return HttpResponse('書籍の一覧')
