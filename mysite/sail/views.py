@@ -29,6 +29,12 @@ def tools(request):
                   'sail/tools.html')
 
 
+def works(request):
+    """仕事ページ"""
+    return render(request,
+                  'sail/works.html')
+
+
 def book_list(request):
     """書籍の一覧"""
     # return HttpResponse('書籍の一覧')
