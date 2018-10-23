@@ -17,8 +17,8 @@ h1 {
     border-bottom: solid 1px white;
     text-align: center;
     color: white;
-    position: absolute;
-    width: 1280px;
+    position: relative;
+    width: auto;
     top: 350px;
 
 }
@@ -222,8 +222,8 @@ h1 {
 }
 
 .box-body {
-    text-align: left;
-    margin: 0 10px;
+    text-align: center;
+    margin: 7px 10px;
     word-break: break-all;
 }
 
