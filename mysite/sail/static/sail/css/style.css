@@ -206,7 +206,7 @@ h1 {
     text-decoration: none;
 }
 
-.box-language {
+.box-container {
     box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
     border-radius: 30px;
     text-align: center;
@@ -225,10 +225,4 @@ h1 {
     text-align: center;
     margin: 7px 10px;
     word-break: break-all;
-}
-
-.box-tools {
-    box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
-    border-radius: 30px;
-    text-align: left;
 }
