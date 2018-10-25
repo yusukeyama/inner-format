@@ -226,3 +226,7 @@ h1 {
     margin: 7px 10px;
     word-break: break-all;
 }
+
+.icon-pos {
+    position: center;
+}
