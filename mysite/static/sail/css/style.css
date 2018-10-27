@@ -1,0 +1,232 @@
+body {
+    text-rendering: auto;
+    font-size: 14px;
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color: #1b1e21;
+    background-color: #ffffff ;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    padding: 5px 0;
+    font-size: 30px;
+    border-bottom: solid 1px white;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: auto;
+    top: 350px;
+
+}
+
+@media screen and (min-width:768px) {
+  #nav-open {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .header-outer {
+
+    }
+}
+
+.header-inner {
+    position: relative;
+}
+
+._header-outer {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 1200px;
+    height: 0;
+}
+
+.header-outer {
+    background-color: #1b1e21;
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 1260px;
+}
+
+.header-inner {
+    display: block;
+    width: 100%;
+    min-width: 1200px;
+    padding: 0 20px;
+    background: #1b1e21;
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.header-left {
+    display: flex;
+    flex-basis: 280px;
+    align-items: center;
+    margin: 0 2% 0 0;
+    padding: 23px 0 25px;
+}
+
+.header-title {
+    margin: 0 0 0 1%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.header-menu {
+    display: flex;
+    align-content: flex-start;
+}
+
+.header-navi {
+    display: block;
+    margin: 0 33px 0 auto;
+    max-width: 613px;
+    flex-basis: 613px;
+}
+
+.header-navi-list {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    width: 850px;
+}
+
+.header-navi-item {
+    float: left;
+    width: 250px;
+    list-style-type: none;
+}
+
+.body-base {
+    position: relative;
+    width: 100%;
+    min-width: 1260px;
+    background-color: #ffffff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.gradient-area {
+    background: linear-gradient(#05FBEE, #1D62F0);
+}
+
+.wave {
+  opacity: .4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #0af;
+  width: 500px;
+  height: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: .1;
+  background: yellow;
+}
+
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
+.top-area {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    border-bottom: solid 1px black;
+    margin: 10px 0 10px 0;
+    padding-bottom: 10px;
+}
+
+.profile-area {
+    width: 1280px;
+    height: 800px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.profile-area-cont {
+    padding: 50px 0;
+    position: center;
+    margin: auto;
+}
+
+.small-title {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.small-title-border {
+    border-bottom: solid 1px black;
+    padding-bottom: 10px;
+}
+
+.top-link {
+    display: block;
+    padding: 30px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #1b1e21;
+    color: #fff;
+}
+
+.top-link:hover {
+    background-color: #17a2b8;
+    text-decoration: none;
+}
+
+.box-container {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.box-header {
+    font-weight: 400;
+    padding: 10px 30px;
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center;
+    position: center;
+}
+
+.box-body {
+    text-align: center;
+    margin: 7px 10px;
+    word-break: break-all;
+}
+
+.icon-pos {
+    position: center;
+}
