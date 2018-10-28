@@ -13,7 +13,7 @@ jobs:
  
       - add_ssh_keys:
           fingerprints:
-            - "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
+            - "d2:ee:ce:6b:d7:35:eb:9b:e3:ca:41:8a:38:ab:f8:1c"
  
       - run:
           name: Start ssh-keyscan
@@ -24,5 +24,5 @@ jobs:
           name: Start master deploy
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-                rsync -av --delete --exclude='.git' --exclude='.circleci' ./ ${USER_NAME}@${HOST_NAME}:/var/www/html/
+                rsync -av --delete --exclude='.git' --exclude='.circleci' ./ ${USER_NAME}@${HOST_NAME}:/home/webuser/service2
             fi
