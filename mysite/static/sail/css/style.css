@@ -14,9 +14,9 @@ img {
 h1 {
     padding: 5px 0;
     font-size: 30px;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px black;
     text-align: center;
-    color: white;
+    color: black;
     position: relative;
     width: auto;
     top: 350px;
@@ -121,7 +121,7 @@ h1 {
 }
 
 .gradient-area {
-    background: linear-gradient(#05FBEE, #1D62F0);
+    background: linear-gradient(#87cefa, #ffffff);
 }
 
 .wave {
@@ -129,7 +129,7 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #0af;
+  background: #0afc;
   width: 500px;
   height: 500px;
   margin-left: -250px;
