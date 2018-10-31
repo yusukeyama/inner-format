@@ -31,13 +31,5 @@ jobs:
           name: Start deploy static files
           command: |
             ssh ${USER_NAME}@${HOST_NAME}
-
-      - deploy:
-          name: Change Directry
-          command: |
             cd service2/mysite
-      
-      - deploy:
-          name: Deploy Static
-          command: |
             python3 manage.py collectstatic
