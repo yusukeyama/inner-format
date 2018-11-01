@@ -26,10 +26,3 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
                 rsync -av --delete --exclude='.git' --exclude='.circleci' ./ ${USER_NAME}@${HOST_NAME}:/home/webuser/service2
             fi
-
-      - deploy:
-          name: Start deploy static files
-          command: |
-            ssh ${USER_NAME}@${HOST_NAME}
-            cd service2/mysite
-            python3 manage.py collectstatic
