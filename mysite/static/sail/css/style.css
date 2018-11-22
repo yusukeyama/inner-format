@@ -227,6 +227,13 @@ h1 {
     word-break: break-all;
 }
 
-.icon-pos {
-    position: center;
+.center-pos {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+    width: 50px;
+}
+
+.center-img {
+    display: inline-block;
 }
